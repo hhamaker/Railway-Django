@@ -77,7 +77,6 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
-'''
 #This is used for the local postgres database hosted on railway
 DATABASES = {
     'default': {
@@ -101,7 +100,7 @@ DATABASES = {
     'OPTIONS': {'ssl': {'ca': os.environ.get('MYSQL_ATTR_SSL_CA')}}
   }
 }
-
+'''
 
 
 # Password validation
